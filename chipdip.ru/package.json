@@ -6,8 +6,7 @@
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
-		"dev": "npx tsc && node dist/index.js",
-		"join": "npx tsc && node dist/join.js"
+		"dev": "npx tsc && node dist/index.js"
 	},
 	"dependencies": {
 		"@parabit/prettier": "^0.0.5",
