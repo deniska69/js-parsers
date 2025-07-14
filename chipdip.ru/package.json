@@ -1,0 +1,22 @@
+{
+	"name": "chipdip.ru",
+	"version": "1.0.0",
+	"repository": "https://github.com/deniska69/js-parsers/chipdip.ru",
+	"author": "deniska69 <gostev.dy@yandex.ru>",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "npx tsc && node dist/index.js",
+		"join": "npx tsc && node dist/join.js"
+	},
+	"dependencies": {
+		"@parabit/prettier": "^0.0.5",
+		"@types/node": "^24.0.13",
+		"@types/windows-1251": "^0.1.22",
+		"fs": "^0.0.1-security",
+		"prettier": "^3.6.2",
+		"puppeteer-real-browser": "^1.4.2",
+		"typescript": "^5.8.3",
+		"windows-1251": "^3.0.4"
+	}
+}
